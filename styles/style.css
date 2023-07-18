@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:wght@400;700;800&family=Work+Sans:wght@400;600;700;800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* navbar section  */
+.nav-container {
+  background-color: white;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 110px;
+}
+.nav-img-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.nav-img-container img {
+  width: 50%;
+  height: 28px;
+  object-fit: cover;
+}
+.nav-img-container h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: black;
+}
+.nav-img-container span {
+  color: #ff42a5;
+}
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.menu-container a{
+  text-decoration: none;
+  color: #3C354F;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.10);
+  padding: 10px 20px;
+
+}
+.fa-youtube{
+    color: red;
+    font-size: 22px;
+}
+.fa-tiktok{
+    color: black;
+    font-size: 16px;
+}
