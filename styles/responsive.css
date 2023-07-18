@@ -10,3 +10,19 @@
     }
     
 }
+
+
+/* for tablets  */
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+
+    .nav-container{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .menu-container{
+        gap: 60px;
+    }
+
+    
+}
