@@ -8,6 +8,28 @@
         margin-top: -50px;
         gap: 25px;
     }
+
+    /* banner section  */
+    .banner-container {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        margin-top: 350px;
+      }
+      .banner-content{
+        width: 100%;
+        /* text-align: center; */
+      }
+      .banner-image{
+        width: 100%;
+        margin-bottom: 20px;
+     
+      }
+      .banner-headings{
+        width: 90%;
+        padding-top: 50px;
+        margin-left: 80px;
+        /* text-align: center; */
+      }
     
 }
 
@@ -23,6 +45,28 @@
     .menu-container{
         gap: 60px;
     }
+
+        /* banner section  */
+        .banner-container {
+            flex-direction: column;
+            flex-direction: column-reverse;
+            margin-top: 600px;
+          }
+          .banner-content{
+            width: 100%;
+            /* text-align: center; */
+          }
+          .banner-image{
+            width: 100%;
+            margin-bottom: 20px;
+         
+          }
+          .banner-headings{
+            width: 90%;
+            padding-top: 50px;
+            margin-left: 280px;
+
+          }
 
     
 }
