@@ -53,7 +53,22 @@
   font-size: 1rem;
   }
 
+  /* funny videos section  */
 
+  .card-container{
+    height: auto;
+    width: 90%;
+    flex-direction: column;
+  }
+  .funny-games-content h1{
+    font-size: 1.7rem;
+  }
+  .funny-games-content p{
+    font-size: 0.8rem;
+  }
+  .card{
+    max-width: 90%;
+  }
 }
 
 
@@ -126,6 +141,23 @@ margin: 15px 0;
   color: #534C64;
 font-size: 1.2rem;
 font-weight: 700;
+}
+
+/* funny videos section  */
+.card-container{
+  height: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.funny-games-content h1{
+  font-size: 1.7rem;
+}
+.funny-games-content p{
+  font-size: 0.8rem;
+}
+.card{
+  max-width: 90%;
 }
 
 }
