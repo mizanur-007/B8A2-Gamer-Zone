@@ -162,6 +162,33 @@ margin-bottom: -80px;
         height: auto;
       }
 
+      /* icons section  */
+      .icon-section{
+        height: auto;
+      }
+      .icon-container{
+        max-width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+        justify-content: center;
+        align-content: center;
+      }
+      .game-genre{
+        gap: 5px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+      }
+      .game-genre p{
+      font-size: 0.8rem;
+      font-weight: 400;
+      }
+      .game-genre img{
+        height: 30px;
+        width: 30px;
+      }
+
 
 }
 
