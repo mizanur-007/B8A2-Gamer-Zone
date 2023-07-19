@@ -16,6 +16,7 @@
     font-weight: 600;
     margin-right: 10px;
     margin-top: 20px;
+    cursor: pointer;
 
 
 }
@@ -512,4 +513,63 @@ font-weight: 400;
   border-left: 7px solid white;
   border-radius: 15px;
   object-fit: cover;
+}
+
+/* career section  */
+.career-container{
+  max-width: 100%;
+  height: 500px;
+  margin-top: 130px;
+  background: linear-gradient(90deg, #ff42a4f4 0%, #ff42a4ef 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.career-content{
+  max-width: 55%;
+  /* min-height: 400px; */
+  height: 500px;
+}
+.career-image{
+  max-width: 45%;
+  height: 500px;
+}
+.career-image img{
+  width: 100%;
+  height: 100%;
+}
+.career-headings{
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 15x 0; 
+  padding-left: 30px;
+  /* padding-bottom: 20px; */
+}
+.career-headings h1{
+  color: #FFF;
+  font-size: 2.3rem;
+  font-weight: 800;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.career-headings p{
+  color: #FFF;
+font-weight: 400;
+max-resolution: 20px 0;
+}
+.careers p{
+  color: #FFF;
+font-size: 0.9rem;
+font-weight: 600;
+}
+.careers{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin: 15px 0;
+  gap: 15px;
+  margin-top: 25px;
+}
+#btn3{
+  background-color: white;
+  color: #FF42A5;
 }
