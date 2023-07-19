@@ -441,3 +441,75 @@ font-weight: 400;
   border-left: 7px solid white;
   border-radius: 15px;
 }
+
+/* online game section  */
+.online-section{
+  max-width: 80%;
+  height: 500px;
+  margin: 0 auto;
+}
+.online-container{
+  margin-left: -220px;
+  max-width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+  gap: 80px;
+
+}
+.online-content{
+  max-width: 30%;
+  display: flex;
+  margin-left: 50px;
+
+}
+.online-heading{
+  max-width: 100%;
+  text-align: left;
+
+}
+.online-image{
+  max-width: 70%;
+  height: 500px;
+  text-align: right;
+  margin-left: 260px;
+  position: relative;
+}
+.online-image img{
+width: 100%;
+height: 100%;
+border-radius: 10px;
+object-fit: cover;
+
+}
+.online-heading h1{
+font-size: 2.3rem;
+font-weight: 800;
+margin-bottom: 15px;
+}
+.online-heading p{
+  color: #534C64;
+font-weight: 400;
+}
+.short-play{
+  background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.upper-image2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 50%;
+  width: 59%;
+  top: 65%;
+  left: 75%;
+  border-right: 7px solid white;
+  border-left: 7px solid white;
+  border-radius: 15px;
+  object-fit: cover;
+}
