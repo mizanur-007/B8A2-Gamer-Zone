@@ -147,8 +147,26 @@ font-size: 0.8rem;
 margin-bottom: -80px;
       }
 
+      /* career section  */
+      .career-container{
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+      }
+      .career-content{
+        max-width: 100%;
+        height: auto;
+      }
+      .career-image{
+        max-width: 100%;
+        height: auto;
+      }
+
 
 }
+
+
+
 
 
 
@@ -328,5 +346,21 @@ font-weight: 700;
     font-weight: 400;
     font-size: 0.8rem;
     }
+
+          /* career section  */
+          .career-container{
+            height: auto;
+          }
+          .career-content{
+            max-width: 60%;
+            height: auto;
+          }
+          .career-image{
+            max-width: 40%;
+            height: auto;
+          }
+          .career-headings{
+            padding-bottom: 20px;
+          }
 
 }
