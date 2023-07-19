@@ -189,3 +189,186 @@ margin: 15px 0;
 font-size: 1.4rem;
 font-weight: 700;
 }
+
+
+/* funny videos section  */
+.funny-games-content h1{
+  color: #0B0223;
+font-size: 2.4rem;
+font-weight: 800;
+text-align: center;
+margin: 50px 0 10px;
+}
+.funny-part{
+  background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.funny-games-content p{
+  color: #534C64;
+text-align: center;
+font-weight: 400;
+}
+
+.card-container{
+  max-width: 80%;
+  min-height: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card{
+  max-width: 25%;
+  height: auto;
+  margin-top: 25px;
+}
+.card-img{
+  width: 100%;
+  height: 280px;
+  background-image: url("../images/Rectangle\ 4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 13px;
+  margin-bottom: 15px;
+}
+.card-img2{
+  width: 100%;
+  height: 280px;
+  background-image: url("../images/Rectangle\ 5.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 13px;
+  margin-bottom: 15px;
+}
+.card-img3{
+  width: 100%;
+  height: 280px;
+  background-image: url("../images/Rectangle\ 7.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 13px;
+  margin-bottom: 15px;
+}
+.card-img4{
+  width: 100%;
+  height: 280px;
+  background-image: url("../images/Rectangle\ 6.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 13px;
+  margin-bottom: 15px;
+}
+.card{
+  color: #534C64;
+font-weight: 400;
+}
+
+.overlay{
+  width: 100%;
+  height: 280px;
+  background-color: #0b0223c2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f948b2;
+  opacity: 0;
+  border: 3px solid  #f948b2;
+  border-radius: 13px;
+}
+.overlay p{
+  text-align: center;
+font-family: Work Sans;
+font-weight: 600;
+margin-top: 10px;
+}
+.fa-circle-play{
+  color: white;
+  font-size: 1.8rem;
+}
+
+.card-img:hover .overlay{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.overlay2{
+  width: 100%;
+  height: 280px;
+  background-color: #0b0223c2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f948b2;
+  opacity: 0;
+  border: 3px solid  #f948b2;
+  border-radius: 13px;
+}
+.overlay2 p{
+  text-align: center;
+font-family: Work Sans;
+font-weight: 600;
+margin-top: 10px;
+}
+
+.card-img2:hover .overlay2{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.overlay3{
+  width: 100%;
+  height: 280px;
+  background-color: #0b0223c2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f948b2;
+  opacity: 0;
+  border: 3px solid  #f948b2;
+  border-radius: 13px;
+}
+.overlay3 p{
+  text-align: center;
+font-family: Work Sans;
+font-weight: 600;
+margin-top: 10px;
+}
+
+.card-img3:hover .overlay3{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.overlay4{
+  width: 100%;
+  height: 280px;
+  background-color: #0b0223c2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f948b2;
+  opacity: 0;
+  border: 3px solid  #f948b2;
+  border-radius: 13px;
+}
+.overlay4 p{
+  text-align: center;
+font-family: Work Sans;
+font-weight: 600;
+margin-top: 10px;
+}
+
+.card-img4:hover .overlay4{
+  opacity: 1;
+  cursor: pointer;
+}
