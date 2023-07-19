@@ -105,6 +105,48 @@
     border-radius: 14px;
   }
 
+    /* online game section  */
+
+    .online-section{
+      width: 90%;
+      height: auto;
+    }
+    .online-container{
+      flex-direction: column;
+      margin-left: 0px;
+      height: auto;
+    }
+    .online-content{
+      max-width: 100%;
+    
+    }
+    .online-heading{
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 15px;
+    
+    }
+    .online-image{
+      max-width: 100%;
+      height: auto;
+      margin: 0;
+      padding-right: 30px;
+    }
+    .upper-image2{
+      padding-right: 30px;
+      left: 60%;
+      border: none;
+      border-top: 5px solid white;
+      border-radius: 14px;
+    }
+    .online-heading h1{
+      font-size: 2rem;
+      }
+      .online-heading p{
+font-size: 0.8rem;
+margin-bottom: -80px;
+      }
+
 
 }
 
@@ -237,6 +279,51 @@ font-weight: 700;
     margin-bottom: 15px;
     }
     .offline-heading p{
+      color: #534C64;
+    font-weight: 400;
+    font-size: 0.8rem;
+    }
+
+      /* online game section  */
+
+  .online-section{
+    width: 90%;
+    height: auto;
+  }
+  .online-container{
+    margin-left: 0px;
+    height: auto;
+  }
+  .online-content{
+    max-width: 40%;
+  
+  }
+  .online-heading{
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-right: 20px;
+  
+  }
+  .online-image{
+    max-width: 45%;
+    height: auto;
+    margin: 0;
+    padding-left: 30px;
+  }
+  .upper-image2{
+    /* padding-left: 30px; */
+    right: 60%;
+    border: none;
+    border-top: 5px solid white;
+    border-radius: 14px;
+  }
+  .online-heading h1{
+    font-size: 1.9rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    }
+    .online-heading p{
       color: #534C64;
     font-weight: 400;
     font-size: 0.8rem;
