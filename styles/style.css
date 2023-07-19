@@ -136,6 +136,13 @@ margin: 10px 0px;
 .fa-circle-play, .fa-download{
     color: #FF42A5;
 }
+.fa-circle-play{
+  color: #FF42A5;
+  background-color: #f948b2;
+  border-radius: 40px;
+  margin-left: -7px;
+  font-size: 2px;
+}
 #btn2{
     background-color:  #4EC5F7;
 }
@@ -570,7 +577,7 @@ font-weight: 600;
   gap: 15px;
   margin-top: 25px;
 }
-#btn3{
+#btn4{
   background-color: white;
   color: #FF42A5;
 }
@@ -683,7 +690,7 @@ font-weight: 600;
   font-size: 0.8rem;
 font-weight: 600;
 }
-.fa-brands{
+.t, .f, .y, .l, .i, .a{
   color: white;
   font-size: 1.7rem;
 }
