@@ -4,6 +4,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
+
 }
 
 .btn-primary{
@@ -487,7 +488,7 @@ object-fit: cover;
 
 }
 .online-heading h1{
-font-size: 2.3rem;
+font-size: 2rem;
 font-weight: 800;
 margin-bottom: 15px;
 }
@@ -609,7 +610,109 @@ font-weight: 600;
   border: 2px solid  #FF42A5;
   padding: 5px 8px;
   border-radius: 40px;
+  cursor: pointer;
 }
 .game-genre:hover p{
   color: #FF42A5;
+}
+
+.hide{
+  display: none;
+}
+
+/* footer section  */
+.footer{
+  height: 400px;
+  max-width: 100%;
+  background: #0B0223;
+}
+.footer-img-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+}
+.footer-img-container img {
+  width: 75px;
+  height: 35px;
+  object-fit: cover;
+}
+.footer-img-container h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: black;
+
+}
+#title2{
+  color: white;
+}
+.footer-img-container span {
+  color: #ff42a5;
+}
+.link-container{
+  max-width: 55%;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.link-container a{
+  text-decoration: none;
+  color: #FFF;
+  font-size: 0.8rem;
+font-weight: 600;
+}
+
+.social-icon-container{
+  max-width: 45%;
+  margin: 0 auto;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.social-icon-container a{
+  text-decoration: none;
+  color: #FFF;
+  font-size: 0.8rem;
+font-weight: 600;
+}
+.fa-brands{
+  color: white;
+  font-size: 1.7rem;
+}
+
+.policy-link-container{
+  max-width: 45%;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.policy-link-container a{
+  text-decoration: none;
+  font-size: 0.7.5rem;
+font-weight: 600;
+color: rgba(255, 255, 255, 0.60);
+}
+.copyright{
+  max-width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright p{
+  color: rgba(255, 255, 255, 0.60);
+font-size: 0.7rem;
+font-weight: 600;
 }
